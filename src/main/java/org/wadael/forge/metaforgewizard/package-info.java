@@ -1,0 +1,1 @@
+package org.wadael.forge.metaforgewizard;
