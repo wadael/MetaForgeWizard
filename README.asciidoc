@@ -1,11 +1,13 @@
 # MetaForgeWizard
 This software is a Forge2 addon that will help you generate wizard-style addons.
-Because, however simple, I hate to have typos and the more steps the more risk of typo. So, here comes this addon that will generate all the classes, linked between them.
+Because, however simple it is to create a wizard, I hate to have typos and the more steps the more risk of typo. 
+
+So, here comes this addon that will generate all the classes, linked between them, linearly.
 
 ![guy certainly known in the usa, of meme fame in europe][meme]
 
 ## Usage 
-wizard-generator --commandName do-that-business-thing --stepsNames BusinessThingStartWizard,BusinessThingStep1,BusinessThingStep2,BusinessThingStep3,BusinessThingStep4,BusinessThingStep5,BusinessThingStep6,BusinessThingStep7 --destinationSourceFolder gen
+wizard-generator --commandName do-that-business-thing --stepsNames MyStartWizard,MyStep1,MyStep2,MyStep3,MyStep4,MyStep5,MyStep6,MyStep7 --destinationSourceFolder gen
 
 This command will generate 8 classes responding to the Forge command _do-that-business-thing_, put in the folder _gen_ 
 
@@ -20,7 +22,7 @@ addon-install-from-git --url https://github.com/wadael/MetaForgeWizard.git
 # Pre-requisite
 Having Forge installed. Java 1.7. 
 Must be used within a project. 
-Preferably an addon project :) 
+Preferably an addon project :)   (mandatorily)
 
 # Memes
 I had fun making a serie of memes like the one above
@@ -42,6 +44,7 @@ Yes you can ! Amongst the options,  there is
 <h2>Fund me</h2>
 Paypal me   wadael at gmail
 
+++++ 
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input name="cmd" value="_s-xclick" type="hidden">
@@ -51,6 +54,6 @@ Paypal me   wadael at gmail
 <img alt="" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" border="0" height="1" width="1">
 </form>
 
-
+++++ 
 
 
