@@ -14,7 +14,7 @@ image::https://lh5.googleusercontent.com/-3VrBI4E-t_A/VPWvh_-aEyI/AAAAAAAAJfs/s-
 
 
 +
-wizard-generator --commandName do-that-business-thing --stepsNames MyStartWizard,MyStep1,MyStep2,MyStep3,MyStep4,MyStep5,MyStep6,MyStep7 --destinationSourceFolder gen+
+wizard-generator --commandName do-that-business-thing --stepsNames MyStartWizard,MyStep1,MyStep2,MyStep3,MyStep4,MyStep5,MyStep6,MyStep7 --destinationSourceFolder gen
 
 * validate 
 * and hack it
