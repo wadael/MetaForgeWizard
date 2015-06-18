@@ -4,22 +4,27 @@ Because, however simple it is to create a wizard, I hate to have typos and the m
 
 So, here comes this addon that will generate all the classes, linked between them, linearly.
 
-
-image::https://lh5.googleusercontent.com/-3VrBI4E-t_A/VPWvh_-aEyI/AAAAAAAAJfs/s-ziRK5hqz8/w490-h428-no/icyfe.jpg
-
-
-## Usage 
-Give the command a comma-separated list of names for the steps of the resulting wizard
-
-wizard-generator --commandName do-that-business-thing --stepsNames MyStartWizard,MyStep1,MyStep2,MyStep3,MyStep4,MyStep5,MyStep6,MyStep7 --destinationSourceFolder gen
+.NoHairDresserGuy
+image::https://lh5.googleusercontent.com/-3VrBI4E-t_A/VPWvh_-aEyI/AAAAAAAAJfs/s-ziRK5hqz8/w490-h428-no/icyfe.jpg[]
 
 
+## Usage
+* create an addon project
+* Give the command a name, a comma-separated list of steps names for the the resulting wizard 
 
-This command will generate 8 classes responding to the Forge command _do-that-business-thing_, put in the folder _gen_ 
+
++mono
+wizard-generator --commandName do-that-business-thing --stepsNames MyStartWizard,MyStep1,MyStep2,MyStep3,MyStep4,MyStep5,MyStep6,MyStep7 --destinationSourceFolder gen+
+
+* validate 
+* and hack it
+
+
+This command will generate 8 classes responding to the Forge command _do-that-business-thing_, put in the folder _gen_ of the current (addon) project.
 
 
 ## Next ?
-Well, you refactor the package because org.wadael.changeme is probably not what you want in your source tree. Then have a look at the **TODO** in the code. 
+Well, you refactor the package because org.wadael.changeme is probably not what you want in your source tree. Then have a look at the **TODO**s in the code. 
 And of course, implement your business thing
 
 # Installation
@@ -34,8 +39,7 @@ Preferably an addon project :)   (mandatorily)
 # Memes
 I had fun making a serie of memes like the one above
 
-Find them here 
-https://plus.google.com/u/0/photos/+J%C3%A9r%C3%B4meBaton/albums/6121992256368557777
+Find them link:https://plus.google.com/u/0/photos/+J%C3%A9r%C3%B4meBaton/albums/6121992256368557777[here]
 
 # You can help
 Yes you can ! Amongst the options,  there is
@@ -44,8 +48,6 @@ Yes you can ! Amongst the options,  there is
 * send compliments via gmail  (wadael@) , use MetaForgeWizard in the object
 * Thank me in the README of your addon :)
 
-
-[meme]:https://lh5.googleusercontent.com/-3VrBI4E-t_A/VPWvh_-aEyI/AAAAAAAAJfs/s-ziRK5hqz8/w490-h428-no/icyfe.jpg
-
-<h2>Fund me</h2>
+# Fund me#
+Happy with this ?
 Paypal me   at gmail : wadael 
