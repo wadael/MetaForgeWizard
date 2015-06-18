@@ -13,7 +13,7 @@ image::https://lh5.googleusercontent.com/-3VrBI4E-t_A/VPWvh_-aEyI/AAAAAAAAJfs/s-
 * Give the command a name, a comma-separated list of steps names for the the resulting wizard 
 
 
-+mono
++
 wizard-generator --commandName do-that-business-thing --stepsNames MyStartWizard,MyStep1,MyStep2,MyStep3,MyStep4,MyStep5,MyStep6,MyStep7 --destinationSourceFolder gen+
 
 * validate 
@@ -42,12 +42,14 @@ I had fun making a serie of memes like the one above
 Find them link:https://plus.google.com/u/0/photos/+J%C3%A9r%C3%B4meBaton/albums/6121992256368557777[here]
 
 # You can help
+
 Yes you can ! Amongst the options,  there is
+
 * file issues/enhancement requests
 * send me lots of cash 
 * send compliments via gmail  (wadael@) , use MetaForgeWizard in the object
 * Thank me in the README of your addon :)
 
-# Fund me#
-Happy with this ?
+# Fund me
+Happy with saving time thanks to this project ?
 Paypal me   at gmail : wadael 
